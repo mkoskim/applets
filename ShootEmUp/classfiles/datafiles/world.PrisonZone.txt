@@ -1,0 +1,135 @@
+#####################################################################
+#
+# Prison Zone: Prisoner's are waiting for you.
+#
+#####################################################################
+The Prison Zone
+Medium
+
+#--------------------------------------------------------------------
+newfleet
+
+     tankbase    75   100
+     shield      75   200
+     shield      75   300
+
+     tankbase   250   100
+     shield     250   200
+     prison     250   300
+
+     tankbase   425   100
+     shield     425   200
+     shield     425   300
+
+#--------------------------------------------------------------------
+newfleet
+
+     tankbase    75   100 1
+     shield      75   200
+     prison      75   300
+
+     tankbase   150   100
+     shield     150   200
+
+     tankbase   250   100 1
+     shield     250   200
+     prison     250   300
+
+     tankbase   350   100
+     shield     350   200
+
+     tankbase   425   100 1
+     shield     425   200
+     prison     425   300
+
+#--------------------------------------------------------------------
+newfleet
+
+     tankbase    75   100 1
+     shield      75   200
+     prison      75   300
+
+     tankbase   150   100
+     shield     150   200
+     shield     150   300
+
+     tankbase   250   100 1
+     shield     250   200
+     prison     250   300
+
+     tankbase   350   100
+     shield     350   200
+     shield     350   300
+
+     tankbase   425   100 1
+     shield     425   200
+     prison     425   300
+
+#--------------------------------------------------------------------
+newfleet
+
+     tankbase    75   100 2 0.005
+     prison      75   200
+
+     tankbase   150   100 0 0.01
+     tankbase   150   200 1 0.01
+     shield     150   300
+
+     tankbase   250   100 0 0.01
+     shield     250   200
+     shield     250   300
+
+     tankbase   350   100 0 0.01
+     tankbase   350   200 1 0.01
+     shield     350   300
+
+     tankbase   425   100 2 0.005
+     prison     425   200
+
+#--------------------------------------------------------------------
+newfleet
+
+     tankbase    75   100 2 0.005
+     prison      75   200
+     shield      75   300
+
+     tankbase   150   100 0 0.01
+     tankbase   150   200 1 0.01
+     shield     150   300
+
+     tankbase   250   100 0 0.01
+     shield     250   200
+     shield     250   300
+
+     tankbase   350   100 0 0.01
+     tankbase   350   200 1 0.01
+     shield     350   300
+
+     tankbase   425   100 2 0.005
+     prison     425   200
+     shield     425   300
+
+#--------------------------------------------------------------------
+newfleet
+
+     guntower    75    50 0     
+     tankbase    75   100 2 0.005
+     prison      75   200
+     shield      75   300
+
+     tankbase   150   100 0 0.01
+     tankbase   150   200 1 0.01
+     shield     150   300
+
+     tankbase   250   100 0 0.01
+     shield     250   200
+     shield     250   300
+
+     tankbase   350   100 0 0.01
+     tankbase   350   200 1 0.01
+     shield     350   300
+
+     guntower   425    50 0
+     tankbase   425   100 2 0.005
+     prison     425   200
+     shield     425   300

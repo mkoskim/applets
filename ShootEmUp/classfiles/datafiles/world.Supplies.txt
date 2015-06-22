@@ -1,0 +1,206 @@
+#####################################################################
+#
+# Attacking against enemy supplies
+#
+#####################################################################
+The Supplies & Maintenance
+Medium
+
+#--------------------------------------------------------------------
+# Fleet 1
+#--------------------------------------------------------------------
+newfleet
+
+    fueltank 100 100
+    fueltank 100 150
+    fueltank 100 200
+    fueltank 100 250
+    fueltank 100 300
+    shield   100 350
+
+    barracks 250 100
+
+    fueltank 400 100
+    fueltank 400 150
+    fueltank 400 200
+    fueltank 400 250
+    fueltank 400 300
+    shield   400 350
+
+#--------------------------------------------------------------------
+# Fleet 2
+#--------------------------------------------------------------------
+newfleet
+
+    guntower 100  50  0
+    guntower 400  50  0
+
+    fueltank 100 100
+    fueltank 100 150
+    fueltank 100 200
+    fueltank 100 250
+    fueltank 100 300
+    shield   100 350
+
+    fueltank 400 100
+    fueltank 400 150
+    fueltank 400 200
+    fueltank 400 250
+    fueltank 400 300
+    shield   400 350
+
+#--------------------------------------------------------------------
+# Fleet 3
+#--------------------------------------------------------------------
+newfleet
+
+    guntower 100  50  0
+    guntower 250  50  1
+    guntower 400  50  0
+
+    fueltank 100 100
+    fueltank 100 150
+    fueltank 100 200
+    fueltank 100 250
+    fueltank 100 300
+    shield   100 350
+
+    fueltank 250 100
+    fueltank 250 150
+    fueltank 250 200
+    fueltank 250 250
+    fueltank 250 300
+    shield   250 350
+
+    fueltank 400 100
+    fueltank 400 150
+    fueltank 400 200
+    fueltank 400 250
+    fueltank 400 300
+    shield   400 350
+
+#--------------------------------------------------------------------
+# Fleet 4
+#--------------------------------------------------------------------
+newfleet
+
+    guntower 100  50  1
+    guntower 250  50  1
+    guntower 400  50  1
+
+    fueltank  75 100
+    fueltank  75 150
+    fueltank  75 200
+    fueltank  75 250
+    fueltank 125 100
+    fueltank 125 150
+    fueltank 125 200
+    fueltank 125 250
+#    barracks 100 300
+    shield   100 350
+
+    fueltank 225 100
+    fueltank 225 150
+    fueltank 225 200
+    fueltank 225 250
+    fueltank 275 100
+    fueltank 275 150
+    fueltank 275 200
+    fueltank 275 250
+    tankbase 250 310  2
+    shield   250 350
+
+    fueltank 375 100
+    fueltank 375 150
+    fueltank 375 200
+    fueltank 375 250
+    fueltank 425 100
+    fueltank 425 150
+    fueltank 425 200
+    fueltank 425 250
+#    barracks 400 300
+    shield   400 350
+
+#--------------------------------------------------------------------
+# Fleet 5
+#--------------------------------------------------------------------
+newfleet
+
+    guntower 100  50  1
+    guntower 250  50  1
+    guntower 400  50  1
+
+    fueltank  75 100
+    fueltank  75 150
+    fueltank  75 200
+    fueltank  75 250
+    fueltank 125 100
+    fueltank 125 150
+    fueltank 125 200
+    fueltank 125 250
+    tankbase 100 310  2
+    shield   100 350
+
+    fueltank 225 100
+    fueltank 225 150
+    fueltank 225 200
+    fueltank 225 250
+    fueltank 275 100
+    fueltank 275 150
+    fueltank 275 200
+    fueltank 275 250
+    tankbase 250 310  2
+    shield   250 350
+
+    fueltank 375 100
+    fueltank 375 150
+    fueltank 375 200
+    fueltank 375 250
+    fueltank 425 100
+    fueltank 425 150
+    fueltank 425 200
+    fueltank 425 250
+    tankbase 400 310  2
+    shield   400 350
+
+#--------------------------------------------------------------------
+# Fleet 6
+#--------------------------------------------------------------------
+newfleet
+
+    guntower 100  50  1
+    guntower 250  50  1
+    guntower 400  50  1
+
+    fueltank  75 100
+    fueltank  75 150
+    fueltank  75 200
+    fueltank  75 250
+    fueltank 125 100
+    fueltank 125 150
+    fueltank 125 200
+    fueltank 125 250
+    barracks 100 310  2
+    shield   100 350
+
+    fueltank 225 100
+    fueltank 225 150
+    fueltank 225 200
+    fueltank 225 250
+    fueltank 275 100
+    fueltank 275 150
+    fueltank 275 200
+    fueltank 275 250
+    tankbase 250 310  2
+    shield   250 350
+
+    fueltank 375 100
+    fueltank 375 150
+    fueltank 375 200
+    fueltank 375 250
+    fueltank 425 100
+    fueltank 425 150
+    fueltank 425 200
+    fueltank 425 250
+    tankbase 400 310  2
+    shield   400 350

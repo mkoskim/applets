@@ -1,0 +1,57 @@
+#####################################################################
+#
+# FrontWave: A tutorial to a game
+#
+#####################################################################
+The Training Camp
+Game Tutorial
+
+#--------------------------------------------------------------------
+# First fleet
+#--------------------------------------------------------------------
+newfleet
+
+    textbox  100 250 300
+    \Move the ship using arrow keys.
+    \Fire the weapons using CTRL key.
+    \For activating shields, press SHIFT. \n --- \n
+    \Try them out and when you're ready, press
+    \ENTER to advance to the next level.
+
+newfleet
+
+    fueltank 150 270
+    fueltank 150 200
+    fueltank 150 130
+
+    textbox  200 200 200
+    \Shoot the fuel tanks (at the left) to advance to next level.
+    \Normally, you should destroy all enemies in
+    \the fleet to advance to the next level.
+
+newfleet
+
+    tankbase 150 200
+    tankbase  50 200
+
+    textbox  200 200 200
+    \Tank bases send tanks. Don't let the tanks to reach the
+    \bottom of the screen.
+
+newfleet
+
+    prison   160 150
+    prison    80 150
+
+    textbox  200 200 200
+    \Prisons contain your own troops. When the prison is
+    \destroyed, they try to escape - don't shoot or
+    \hit them, instead let them run to the bottom of
+    \the screen!
+
+newfleet
+
+    textbox  100 100 300
+    \The training is now over. Press ENTER to complete
+    \this last level and go back to the main screen to
+    \select a new world to play!

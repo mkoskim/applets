@@ -1,0 +1,13 @@
+#--------------------------------------------------------------------
+#
+# World definition files
+#
+#--------------------------------------------------------------------
+
+datafiles/world.TrainingCamp.txt
+datafiles/world.FrontWave.txt
+datafiles/world.Infantry.txt
+datafiles/world.PrisonZone.txt
+datafiles/world.Supplies.txt
+datafiles/world.NewTech.txt
+datafiles/world.Development.txt

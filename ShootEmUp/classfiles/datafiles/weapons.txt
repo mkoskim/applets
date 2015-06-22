@@ -1,0 +1,28 @@
+#----------------------------------------------------------------------------
+#
+# Weapon data
+#
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+# Guns
+#                                         Image  Direction   Shot           Shots/         Back
+# Name             Type     Energy Recov. Index  X     Y     Type     Rate  Fire    Dist.  Puff
+
+  default          gun          10   0.05     0 +0.00 -1.00  default     2       1   0.00  false
+  rocketLauncher   gun          10   0.05     2 +0.00 -1.00  rocket      8       1   0.00  true
+  grenadeLauncher  gun          10   0.05     2 +0.00 -1.00  grenade     8       2  10.00  true
+  miniGun          gun          10   0.05     1 +0.00 -1.00  minigun     1       1   5.00  false
+  ballGun          gun          10   0.05     0 +0.00 -1.00  steelBall   2       2  10.00  false
+  haloGun          gun          10   0.05     2 +0.00 -1.00  haloBomb    8       1   0.00  false
+
+  leftGun          gun          10   0.05     4 -1.00 +0.00  sideshot    4       2   0.00  false
+  rightGun         gun          10   0.05     3 +1.00 +0.00  sideshot    4       2   0.00  false
+
+#----------------------------------------------------------------------------
+# Shields
+#                                         Image
+# Name             Type     Energy Recov. Index
+
+  hshield          shield       20   0.10     0
+  vshield          shield       20   0.10     1

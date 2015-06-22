@@ -1,0 +1,16 @@
+#----------------------------------------------------------------------------
+#
+# Shot (bullet) data
+#
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#                     Image                             Speed
+# Name       List     Index  Eplosive Energy  Acceleration  Age  Init  Max
+
+  default    offence      0     false    1.0          0.00   -1    15   15
+  steelBall  defence      1     false    0.5          0.00    5    20   20
+  minigun    offence      2     false    1.0          0.00   -1    30   30
+  grenade    defence      3      true    4.0         -0.75   -1    20   20
+  rocket     defence      4      true    8.0          2.50   -1     5   20
+  minigun2   offence      5     false    2.0          0.00   -1    30   30
